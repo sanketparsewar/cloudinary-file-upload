@@ -1,10 +1,5 @@
 # Cloudinary File Upload
 
-[![NPM Version][npm-image]][npm-url]
-[![NPM Downloads][downloads-image]][downloads-url]
-[![Test Coverage][coveralls-image]][coveralls-url]
-
-
 A simple Node.js middleware package for uploading files to [Cloudinary](https://cloudinary.com) using [Multer](https://github.com/expressjs/multer) and [multer-storage-cloudinary](https://github.com/affanshahid/multer-storage-cloudinary).
 
 
@@ -57,21 +52,36 @@ CLOUDINARY_API_SECRET=your_api_secret
 
 ```
 
-### 
+## How to Test
+### Using Postman or curl
+1. Start the server:
 
 ```javascript
+node index.js
+
 ```
 
-For details on the effect of each CORS header, read [this](http://www.html5rocks.com/en/tutorials/cors/) article on HTML5 Rocks.
+2. Open Postman or any API testing tool.
+3. Send a POST request to:
+
+```javascript
+http://localhost:8000/upload
+
+```
+4. In the Body, choose form-data.
+* Key: file (make sure type is set to File)
+* Value: Choose any image or file to upload.
+
+
+## Example JSON Response
+```json
+{
+  "message": "File uploaded successfully!",
+  "url": "https://res.cloudinary.com/your_cloud_name/image/upload/v1234567890/my-folder-name/filename.jpg"
+}
+```
 
 
 ## Author
 
 [Sanket parsewar](https://github.com/sanketparsewar) ([sanket.parsewar97@gmail.com](mailto:sanket.parsewar97@gmail.com))
-
-[coveralls-image]: https://img.shields.io/coveralls/expressjs/cors/master.svg
-[coveralls-url]: https://coveralls.io/r/expressjs/cors?branch=master
-[downloads-image]: https://img.shields.io/npm/dm/cors.svg
-[downloads-url]: https://npmjs.org/package/cors
-[npm-image]: https://img.shields.io/npm/v/cors.svg
-[npm-url]: https://npmjs.org/package/cors

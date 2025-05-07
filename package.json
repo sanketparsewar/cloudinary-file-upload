@@ -1,6 +1,6 @@
 {
   "name": "cloudinary-file-upload",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple Node.js middleware package for uploading files to Cloudinary using Multer.",
   "main": "index.js",
   "scripts": {

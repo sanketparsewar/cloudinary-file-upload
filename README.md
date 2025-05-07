@@ -68,3 +68,10 @@ For details on the effect of each CORS header, read [this](http://www.html5rocks
 ## Author
 
 [Sanket parsewar](https://github.com/sanketparsewar) ([sanket.parsewar97@gmail.com](mailto:sanket.parsewar97@gmail.com))
+
+[coveralls-image]: https://img.shields.io/coveralls/expressjs/cors/master.svg
+[coveralls-url]: https://coveralls.io/r/expressjs/cors?branch=master
+[downloads-image]: https://img.shields.io/npm/dm/cors.svg
+[downloads-url]: https://npmjs.org/package/cors
+[npm-image]: https://img.shields.io/npm/v/cors.svg
+[npm-url]: https://npmjs.org/package/cors

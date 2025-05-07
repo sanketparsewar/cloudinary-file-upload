@@ -1,0 +1,16 @@
+# Ignore source maps, test files, env, and config
+.env
+.env.*
+test/
+tests/
+*.log
+*.map
+*.md
+.vscode/
+.git/
+node_modules/
+README.md
+LICENSE
+package.json
+package-lock.json
+

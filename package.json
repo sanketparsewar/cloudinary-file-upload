@@ -1,12 +1,17 @@
 {
   "name": "cloudinary-file-upload",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple Node.js middleware package for uploading files to Cloudinary using Multer.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["cloudinary", "file-upload", "nodejs", "multer"],
+  "keywords": [
+    "cloudinary",
+    "file-upload",
+    "nodejs",
+    "multer"
+  ],
   "author": "sanket parsewar",
   "license": "MIT",
   "dependencies": {
